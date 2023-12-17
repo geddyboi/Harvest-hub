@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HarvestHub Home</title>
+    <link rel="stylesheet" href="/css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+
+  <body>
+    <section id="header">
+      <a href="#"><img src="images/logo.png" class="logo" /></a>
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="profile.html">Profile</a></li>
+          <li id="lg-bag">
+            <a class="active" href="cart.html">
+              <i class="fas fa-shopping-bag"></i
+            ></a>
+          </li>
+          <a href="#" id="close"><i class="far fa-fa times"></i></a>
+        </ul>
+        <div id="mobile">
+          <a href=""
+            ><i class="material-symbols-outlined shoppingbag1"
+              >shopping_bag</i
+            ></a
+          >
+          <i id="bar" class="material-symbols-outlined">table_rows_narrow</i>
+        </div>
+      </div>
+    </section>
+
+    <section id="page-header">
+      <h2>#Connect With Us</h2>
+      <p></p>
+    </section>
+
+    <section id="cart" class="section-p1">
+      <table width="100%">
+        <thead>
+          <tr>
+            <td>Remove</td>
+            <td>Image</td>
+            <td>Product</td>
+            <td>Price</td>
+            <td>Quantity</td>
+            <td>Subtotal</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <a href="#"><i class="material-symbols-outlined">cancel</i> </a>
+            </td>
+            <td><img src="images/products/product-1.png" alt="" /></td>
+            <td>Rice</td>
+            <td>₱109</td>
+            <td><input type="number" value="1" /></td>
+            <td>₱109</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#"><i class="material-symbols-outlined">cancel</i> </a>
+            </td>
+            <td><img src="images/products/product-1.png" alt="" /></td>
+            <td>Rice</td>
+            <td>₱109</td>
+            <td><input type="number" value="1" /></td>
+            <td>₱109</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#"><i class="material-symbols-outlined">cancel</i> </a>
+            </td>
+            <td><img src="images/products/product-1.png" alt="" /></td>
+            <td>Rice</td>
+            <td>₱109</td>
+            <td><input type="number" value="1" /></td>
+            <td>₱109</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+      <div id="coupon">
+        <h3>Apply coupon</h3>
+        <div>
+          <input type="text" placeholder="Enter your coupon" />
+          <button class="normal">Apply</button>
+        </div>
+      </div>
+
+      <div id="subtotal">
+        <h3>Cart totals</h3>
+        <table>
+          <tr>
+            <td>Cart subtotal</td>
+            <td>₱327</td>
+          </tr>
+          <tr>
+            <td>Shipping</td>
+            <td>Free</td>
+          </tr>
+          <tr>
+            <td><strong>Total</strong></td>
+            <td><strong>₱327</strong></td>
+          </tr>
+        </table>
+        <button class="normal">Proceed to checkout</button>
+      </div>
+    </section>
+  </body>
+</html>
